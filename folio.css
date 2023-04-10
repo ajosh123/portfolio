@@ -1,0 +1,88 @@
+body{
+   background-color: white;
+  
+   
+}
+.ajo{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    
+}
+.bio{
+    padding: 20%;
+}
+.second{
+    
+height: 90%;
+}
+@keyframes example{
+    from{
+        color: rgb(26, 6, 141);
+    }
+    to{
+        color: rgba(255, 0, 0, 0.774);
+    }
+}
+.slid{
+    color: rgba(255, 0, 0, 0.897);
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+    animation-direction: inherit;
+
+} 
+ul{
+    list-style-type: none;
+}
+.third{
+    padding: 0%;
+
+    margin-left: 25%;
+}
+i{
+    width: 10%;
+}
+.navbar{
+    position: sticky;
+    top: 0%;
+}
+.sc1{
+    padding: 5%;
+    width: 75%;
+    transition: 1s;
+    
+}
+.sc1:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.sc2{ width: 75%;
+    padding: 5%;
+    transition: 1s;
+}
+.sc2:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.sc3{ width: 75%;
+     padding: 5%;
+    transition: 1s;
+    
+}
+.sc3:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.sc4{ width: 75%;
+     padding: 5%;
+    transition: 1s;
+
+}
+.sc4:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.climax{
+    background-color: rgba(0, 0, 0, 0.178);
+}
